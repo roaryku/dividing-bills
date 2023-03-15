@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divided bills</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="container">
+        <h1>Dividing our bills</h1>
+        <form>
+            <p>Bills 💵</p>
+        <span>$
+            <input type="text" placeholder="Bill..." id="bill">
+        </span>
+            <p>Groceries 💵</p>
+        <span>$
+            <input type="text" placeholder="Groceries..." id="food">
+        </span>
+            <p>Mortgage 💵</p>
+        <span>$
+            <input type="text" placeholder="Mortgage..." id="house">
+        </span>
+
+        <p>🧐 Number of people</p>
+        <span>
+        <input type="text" placeholder="how many people..." id="people">
+    </span>
+
+        <button id="btn">Calculate</button>
+</form>
+
+<div id="showTotalAmoundToPay">
+
+    
+    <div id="billSplit">
+       <p>Bill</p>
+       <span>$</span>
+       <span id="dividedBill"></span>
+       <span>per person</span>
+    </div>
+
+    
+    <div id="groceriesSplit">
+       <p>Groceries</p>
+       <span>$</span>
+       <span id="dividedfood"></span>
+       <span>per person</span>
+    </div>
+
+   
+    <div id="mortgageSplit">
+        <p>Mortgage</p>
+        <span>$</span>
+        <span id="dividedHouse"></span>
+        <span>per person</span>
+     </div>
+
+    
+    <div id="totalAmount">
+       <p>Total</p>
+       <span>$</span>
+       <span id="allTogether"></span>
+       <span>per person</span>
+    </div>
+ </div>
+</div>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
+</body>
+</html>

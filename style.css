@@ -1,0 +1,71 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1513135724701-30343e546328?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG91c2Vob2xkJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #F7FBFC;
+}
+
+#container{
+    background-color:#94B49F;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 600px;
+        height: auto;
+        border-radius: 50px;
+        color: #F2F2F2;
+        margin-left: 140px;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Lato', sans-serif;
+        margin: 20px;
+        padding: 20px;
+    }
+    h1{
+        font-family: 'Lato', sans-serif;
+        font-size: 40px;
+        align-self: center;
+        margin-top: 50px;
+    }
+    
+    input{
+        font-family: 'Lato', sans-serif;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        width: 50%;
+    }
+    
+    p{
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    #btn{
+        background-color: #F05454;
+        color: #F2F2F2;
+        font-size: 15px;
+        margin-top: 40px;
+        border-radius: 10px;
+        border: none;
+        padding: 15px;
+    }
+
+    #showTotalAmoundToPay{
+        display: flex;
+    }
+    
+    #billSplit, #groceriesSplit, #mortgageSplit, #totalAmount{
+        font-family: 'Lato', sans-serif;
+        background-color: #9E9D89;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        border: none;
+    }
+
